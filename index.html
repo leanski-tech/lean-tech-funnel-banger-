@@ -3,45 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hire Your First 8 AI Employees — Free Playbook</title>
-<meta name="description" content="The free playbook that shows you how to build an AI team that writes your emails, designs your graphics, scripts your videos, and launches your products.">
+<title>The DJ's AI Playbook — by DJ Leanskee</title>
+<meta name="description" content="The most comprehensive guide to AI for DJs ever written. 100 pages: music, production, performance, business, brand. By DJ Leanskee — 45+ years in the culture.">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: #1a2233;
-    background: #f6f8fb;
+    color: #1a1a24;
+    background: #f7f6f3;
     line-height: 1.6;
   }
   .hero {
-    background: linear-gradient(160deg, #0b1d33 0%, #123a5c 60%, #0e5e63 100%);
+    background: linear-gradient(155deg, #0d0d14 0%, #1a1030 55%, #3b1053 100%);
     color: #ffffff;
     padding: 72px 20px 96px;
     text-align: center;
   }
   .badge {
     display: inline-block;
-    background: rgba(255,255,255,0.12);
-    border: 1px solid rgba(255,255,255,0.25);
+    background: rgba(255, 195, 26, 0.15);
+    border: 1px solid rgba(255, 195, 26, 0.5);
+    color: #ffc31a;
     border-radius: 999px;
     padding: 6px 16px;
-    font-size: 14px;
-    letter-spacing: 0.4px;
+    font-size: 13.5px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
     margin-bottom: 24px;
   }
   h1 {
-    font-size: clamp(30px, 5vw, 52px);
-    line-height: 1.15;
-    max-width: 820px;
-    margin: 0 auto 20px;
+    font-size: clamp(30px, 5vw, 54px);
+    line-height: 1.12;
+    max-width: 860px;
+    margin: 0 auto 18px;
     font-weight: 800;
   }
-  h1 .accent { color: #5eead4; }
+  h1 .accent { color: #ffc31a; }
   .sub {
     font-size: clamp(17px, 2.2vw, 21px);
-    max-width: 660px;
-    margin: 0 auto 40px;
-    color: #d7e3ee;
+    max-width: 680px;
+    margin: 0 auto 14px;
+    color: #cfc9de;
+  }
+  .cred {
+    font-size: 14.5px;
+    color: #9c92b8;
+    margin-bottom: 38px;
   }
   .card {
     background: #ffffff;
@@ -49,25 +56,25 @@
     margin: 0 auto;
     border-radius: 16px;
     padding: 32px 28px;
-    box-shadow: 0 20px 50px rgba(6, 20, 40, 0.35);
-    color: #1a2233;
+    box-shadow: 0 20px 50px rgba(10, 5, 25, 0.5);
+    color: #1a1a24;
     text-align: left;
   }
   .card h2 { font-size: 20px; margin-bottom: 6px; }
-  .card p.small { font-size: 14px; color: #5b6b7f; margin-bottom: 18px; }
+  .card p.small { font-size: 14px; color: #5f5b6e; margin-bottom: 18px; }
   label { font-size: 14px; font-weight: 600; display: block; margin-bottom: 6px; }
   input[type="text"], input[type="email"] {
     width: 100%;
     padding: 13px 14px;
     font-size: 16px;
-    border: 1.5px solid #c9d4e0;
+    border: 1.5px solid #cfcad9;
     border-radius: 10px;
     margin-bottom: 16px;
   }
-  input:focus { outline: none; border-color: #0e5e63; }
+  input:focus { outline: none; border-color: #3b1053; }
   button {
     width: 100%;
-    background: #0e5e63;
+    background: #3b1053;
     color: #ffffff;
     font-size: 17px;
     font-weight: 700;
@@ -77,26 +84,41 @@
     cursor: pointer;
     transition: background 0.15s ease;
   }
-  button:hover { background: #0a4a4e; }
-  .privacy { font-size: 12.5px; color: #7b8a9c; margin-top: 12px; text-align: center; }
-  .section { max-width: 880px; margin: 0 auto; padding: 64px 20px; }
-  .section h2 { font-size: clamp(24px, 3.5vw, 34px); text-align: center; margin-bottom: 36px; }
+  button:hover { background: #2a0b3c; }
+  .privacy { font-size: 12.5px; color: #837e93; margin-top: 12px; text-align: center; }
+  .section { max-width: 900px; margin: 0 auto; padding: 64px 20px; }
+  .section h2 { font-size: clamp(24px, 3.5vw, 34px); text-align: center; margin-bottom: 10px; }
+  .section p.lead { text-align: center; color: #55506a; max-width: 640px; margin: 0 auto 36px; }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
   }
   .tile {
     background: #ffffff;
-    border: 1px solid #e3e9f0;
+    border: 1px solid #e6e2ee;
     border-radius: 14px;
     padding: 22px;
   }
   .tile .emoji { font-size: 26px; }
   .tile h3 { font-size: 17px; margin: 10px 0 6px; }
-  .tile p { font-size: 14.5px; color: #4d5d70; }
+  .tile p { font-size: 14.5px; color: #55506a; }
+  .quote {
+    background: #0d0d14;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .quote blockquote {
+    font-size: clamp(20px, 3vw, 28px);
+    font-weight: 700;
+    max-width: 760px;
+    margin: 0 auto 14px;
+    line-height: 1.35;
+  }
+  .quote cite { color: #ffc31a; font-style: normal; font-size: 15px; }
   .cta-strip {
-    background: #0b1d33;
+    background: #3b1053;
     color: #ffffff;
     text-align: center;
     padding: 56px 20px;
@@ -104,8 +126,8 @@
   .cta-strip h2 { font-size: clamp(22px, 3vw, 30px); margin-bottom: 20px; }
   .cta-strip a {
     display: inline-block;
-    background: #5eead4;
-    color: #0b1d33;
+    background: #ffc31a;
+    color: #1a1a24;
     font-weight: 700;
     font-size: 17px;
     padding: 15px 36px;
@@ -116,22 +138,24 @@
     text-align: center;
     padding: 28px 20px;
     font-size: 13px;
-    color: #7b8a9c;
+    color: #837e93;
   }
+  footer a { color: #3b1053; }
 </style>
 </head>
 <body>
 
 <section class="hero" id="top">
-  <span class="badge">FREE PLAYBOOK · 10-MINUTE READ</span>
-  <h1>Hire Your First 8 <span class="accent">AI Employees</span> — For $0</h1>
-  <p class="sub">The exact playbook to build an AI team that writes your emails, designs your graphics, scripts your videos, and launches your products — even if you're not techy.</p>
+  <span class="badge">THE 100-PAGE PLAYBOOK · 2026 EXPANDED TEACHING EDITION · DROPPING SOON</span>
+  <h1>AI Is Not Cheating.<br>It's Your <span class="accent">Competitive Edge.</span></h1>
+  <p class="sub">The most comprehensive guide to AI for DJs ever written — music, production, performance, business, and brand. Step by step, tool by tool, workflow by workflow.</p>
+  <p class="cred">By Lino "DJ Leanskee" Delgado · Founder, Classic Floorlords · 45+ years in the culture · 30+ years behind the decks</p>
 
   <div class="card">
-    <h2>Get the free playbook</h2>
-    <p class="small">Tell me where to send it and it's yours in 10 seconds.</p>
+    <h2>Get first access</h2>
+    <p class="small">The playbook drops soon on leanskee.com for $29. Join the list and you'll get it first — with the best launch deal it will ever have.</p>
     <form action="https://formsubmit.co/42ec20609ea4c402de2d3d3f5f9235a1" method="POST">
-      <input type="hidden" name="_subject" value="🔥 New lead: AI Team Playbook">
+      <input type="hidden" name="_subject" value="🎧 New lead: DJ AI Playbook waitlist">
       <input type="hidden" name="_next" value="https://leanski-tech.github.io/lean-tech-funnel-banger-/thanks.html">
       <input type="hidden" name="_captcha" value="false">
       <input type="text" name="_honey" style="display:none">
@@ -139,33 +163,39 @@
       <input type="text" id="name" name="name" placeholder="Your first name" required>
       <label for="email">Email</label>
       <input type="email" id="email" name="email" placeholder="you@example.com" required>
-      <button type="submit">Send Me the Free Playbook →</button>
+      <button type="submit">Put Me First in Line →</button>
     </form>
-    <p class="privacy">No spam, ever. Unsubscribe anytime with one click.</p>
+    <p class="privacy">No spam, ever. Made by a DJ, for DJs.</p>
   </div>
 </section>
 
 <section class="section">
-  <h2>Meet the team you're about to hire</h2>
+  <h2>What's inside the playbook</h2>
+  <p class="lead">35 chapters. Not theory — the actual how-to: which tools, which buttons, which prompts, in what order.</p>
   <div class="grid">
-    <div class="tile"><span class="emoji">✍️</span><h3>The Copywriter</h3><p>Sales pages, ads, and headlines that actually convert — written in minutes, not weekends.</p></div>
-    <div class="tile"><span class="emoji">📧</span><h3>The Email Marketer</h3><p>Welcome sequences and campaigns that turn subscribers into buyers on autopilot.</p></div>
-    <div class="tile"><span class="emoji">🎬</span><h3>The Viral Scripter</h3><p>Short-form video scripts with hooks that stop the scroll in the first 2 seconds.</p></div>
-    <div class="tile"><span class="emoji">🎨</span><h3>The Graphic Designer</h3><p>Social graphics, thumbnails, and lead magnet covers — no design skills required.</p></div>
-    <div class="tile"><span class="emoji">🚀</span><h3>The Launch Manager</h3><p>A complete product launch plan, from pre-launch buzz to cart close.</p></div>
-    <div class="tile"><span class="emoji">📰</span><h3>The PR Agent</h3><p>Press releases and media pitches that get your story picked up.</p></div>
-    <div class="tile"><span class="emoji">🎓</span><h3>The Course Creator</h3><p>Turn what you know into a sellable course with modules, lessons, and worksheets.</p></div>
-    <div class="tile"><span class="emoji">🌍</span><h3>The Translator</h3><p>Take every piece of content global without losing its punch.</p></div>
+    <div class="tile"><span class="emoji">🎛️</span><h3>AI Inside Your DJ Software</h3><p>Stems, phrase analysis, and the AI already sitting in the gear you own — turned all the way on.</p></div>
+    <div class="tile"><span class="emoji">🗣️</span><h3>Prompt Like a DJ</h3><p>The RCTF framework and your Voice Brief — so AI sounds like you, not a marketing intern.</p></div>
+    <div class="tile"><span class="emoji">🎚️</span><h3>Sets, Mixes & Music Discovery</h3><p>Library prep, set building, and crate organization with AI doing the tedious parts.</p></div>
+    <div class="tile"><span class="emoji">📹</span><h3>Stage Visuals & Video</h3><p>Generate custom visuals and social clips without hiring a VJ or buying loop packs.</p></div>
+    <div class="tile"><span class="emoji">💼</span><h3>Business Automation</h3><p>Booking replies, contracts, invoices, follow-ups — the back office that eats your week, automated.</p></div>
+    <div class="tile"><span class="emoji">📱</span><h3>The Social Media Growth Playbook</h3><p>One 20-minute recording → a month of content. Plus 50 reel hooks that stop the scroll.</p></div>
+    <div class="tile"><span class="emoji">💰</span><h3>Revenue Streams & Scaling</h3><p>Second income layers for working DJs — products, content, and services that fit the craft.</p></div>
+    <div class="tile"><span class="emoji">🕰️</span><h3>Culture First, Always</h3><p>From the block to the algorithm — the history, the ethics, and the rule that keeps it real.</p></div>
   </div>
 </section>
 
+<section class="quote">
+  <blockquote>"AI can't feel a room. You can. AI can't read a crowd at 1 AM when the energy shifts. You can. What AI CAN do is handle the work that eats your time — so you show up sharper."</blockquote>
+  <cite>— DJ Leanskee, The DJ's AI Playbook</cite>
+</section>
+
 <section class="cta-strip">
-  <h2>Stop doing 8 jobs. Start managing 8 agents.</h2>
-  <a href="#top">Get the Free Playbook</a>
+  <h2>The DJs who act on this now own the next era.</h2>
+  <a href="#top">Join the First-Access List</a>
 </section>
 
 <footer>
-  © 2026 Leanskee · Made with aloha in Honolulu, HI
+  © 2026 DJ Leanskee · <a href="https://leanskee.com">leanskee.com</a> · Made with aloha in Honolulu, HI
 </footer>
 
 </body>
