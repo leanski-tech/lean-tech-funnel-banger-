@@ -7,7 +7,7 @@ This repo contains a complete, working pre-launch funnel for "The DJ's AI Playbo
 ## How the funnel works (plain English)
 
 1. **`index.html` — the waitlist page.** A DJ lands here, reads the pitch, and enters their name + email for first access to the $29 playbook at launch.
-2. **The form** posts to [FormSubmit](https://formsubmit.co) — a free service that forwards every submission to your email inbox. Every new lead = an email to you with their name and address. No signup or code needed.
+2. **The button** opens the visitor's own email app with a pre-written message to lino@infoleanskee.com. They hit send, and the lead lands directly in the inbox. No third-party form service involved, so there is nothing external to break.
 3. **`thanks.html` — the thank-you page.** Confirms they are first in line for the launch.
 
 ```
@@ -16,14 +16,13 @@ Visitor → index.html (waitlist form) → email lands in your inbox (the lead!)
 At launch: email the list a buy link ($29) → sales.
 ```
 
-## Setup (one-time, ~3 minutes)
+## Setup
 
-1. **Turn on GitHub Pages:** repo **Settings → Pages → Source: Deploy from a branch**, pick your branch, folder `/ (root)`, save. Your funnel goes live at `https://<username>.github.io/<repo>/`.
-2. **Activate the form:** submit the form once yourself. FormSubmit sends a confirmation email to the inbox address in the form — click the link inside it once, and all future leads flow automatically.
+GitHub Pages is already on (Settings → Pages → deploy from branch). There is nothing else to activate — the signup button uses plain email.
 
 ## Analyzing your funnel
 
-Each lead arrives as an email, so your inbox is your lead log. To count conversions, search your inbox for the form's subject line ("New lead: DJ AI Playbook waitlist"). For page-view stats, add any free analytics snippet (e.g., GoatCounter or Plausible) to `index.html`.
+Each lead arrives as an email, so your inbox is your lead log. To count conversions, search your inbox for the subject line ("Put me first in line - DJ AI Playbook"). For page-view stats, add any free analytics snippet (e.g., GoatCounter or Plausible) to `index.html`.
 
 ## Upgrading later
 

@@ -85,6 +85,19 @@
     transition: background 0.15s ease;
   }
   button:hover { background: #2a0b3c; }
+  a.mailbtn {
+    display: block;
+    text-align: center;
+    background: #3b1053;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.15s ease;
+  }
+  a.mailbtn:hover { background: #2a0b3c; }
   .privacy { font-size: 12.5px; color: #837e93; margin-top: 12px; text-align: center; }
   .section { max-width: 900px; margin: 0 auto; padding: 64px 20px; }
   .section h2 { font-size: clamp(24px, 3.5vw, 34px); text-align: center; margin-bottom: 10px; }
@@ -154,18 +167,8 @@
   <div class="card">
     <h2>Get first access</h2>
     <p class="small">The playbook drops soon on leanskee.com for $29. Join the list and you'll get it first — with the best launch deal it will ever have.</p>
-    <form action="https://formsubmit.co/lino@infoleanskee.com" method="POST">
-      <input type="hidden" name="_subject" value="🎧 New lead: DJ AI Playbook waitlist">
-      <input type="hidden" name="_next" value="https://leanski-tech.github.io/lean-tech-funnel-banger-/thanks.html">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="text" name="_honey" style="display:none">
-      <label for="name">First name</label>
-      <input type="text" id="name" name="name" placeholder="Your first name" required>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="you@example.com" required>
-      <button type="submit">Put Me First in Line →</button>
-    </form>
-    <p class="privacy">No spam, ever. Made by a DJ, for DJs.</p>
+    <a class="mailbtn" href="mailto:lino@infoleanskee.com?subject=Put%20me%20first%20in%20line%20-%20DJ%20AI%20Playbook&body=Aloha%20Lino!%20Put%20me%20first%20in%20line%20for%20The%20DJ%27s%20AI%20Playbook.%0A%0AMy%20name%3A%20">Put Me First in Line →</a>
+    <p class="privacy">Tap the button — your email app opens with the message already written. Hit send and you're locked in. No forms, no middlemen, no spam.</p>
   </div>
 </section>
 
