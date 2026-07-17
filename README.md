@@ -2,18 +2,16 @@
 
 Simple funnel creator and analyzer with step-by-step instructions.
 
-This repo contains a complete, working pre-launch funnel for "The DJ's AI Playbook — 2026 Expanded Teaching Edition" by DJ Leanskee (a $29 paid book): a waitlist opt-in page and a thank-you page. No backend, no database, no monthly fees. The book itself is NOT stored in this repo — it is a paid product.
+This repo contains a complete, working pre-launch funnel for "The DJ's AI Playbook — 2026 Expanded Teaching Edition" by DJ Leanskee (a $29 paid book): a sales landing page linking to the Gumroad checkout. No backend, no database, no monthly fees. The book itself is NOT stored in this repo — it is a paid product.
 
 ## How the funnel works (plain English)
 
-1. **`index.html` — the waitlist page.** A DJ lands here, reads the pitch, and enters their name + email for first access to the $29 playbook at launch.
-2. **The button** opens the visitor's own email app with a pre-written message to lino@infoleanskee.com. They hit send, and the lead lands directly in the inbox. No third-party form service involved, so there is nothing external to break.
-3. **`thanks.html` — the thank-you page.** Confirms they are first in line for the launch.
+1. **`index.html` — the sales page.** A DJ lands here, reads the pitch, and clicks through to buy.
+2. **The button** links to the Gumroad product page (https://leanski.gumroad.com/l/ojfvqt), which handles payment and instant PDF delivery. Gumroad also captures every buyer's email.
 
 ```
-Visitor → index.html (waitlist form) → email lands in your inbox (the lead!)
-                                     → thanks.html (first-in-line confirmation)
-At launch: email the list a buy link ($29) → sales.
+Visitor → index.html (sales page) → Gumroad checkout ($29) → instant download
+Buyer emails collected automatically in the Gumroad dashboard.
 ```
 
 ## Setup
