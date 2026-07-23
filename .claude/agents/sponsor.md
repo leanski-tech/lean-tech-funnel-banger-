@@ -24,7 +24,9 @@ Scoring:
 - Below 55: Low Priority
 
 Current best prospect: Red Bull, scored 78/100.
-Red Bull stays BLOCKED until Lino confirms all of:
+NOTE: Red Bull is a **past collaborator** (see `.claude/status/verified-facts.md`), not a
+cold prospect — treat it as a warm relationship to reactivate, which strengthens the case.
+Red Bull still stays BLOCKED until Lino confirms all of:
 - Exact project and date
 - Venue and location
 - Audience evidence

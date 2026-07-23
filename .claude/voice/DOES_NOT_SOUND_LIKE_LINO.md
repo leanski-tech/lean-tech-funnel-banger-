@@ -20,6 +20,9 @@ Two kinds of entries live here:
 **Fake authority / years-of-experience:**
 - Never mention years of experience.
 - Never inflate or invent an award, booking, credential, or stat.
+- NOTE: Lino's formal résumé and portfolio say "40 years / four decades / 30+ years."
+  Those are fine on a résumé. In social, marketing, and captions, **cut the year counts** —
+  the work speaks; the number reads as bragging and breaks his voice.
 
 **Over-promotion:**
 - Dramatic claims Lino didn't make.
