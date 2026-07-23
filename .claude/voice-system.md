@@ -78,7 +78,12 @@ If a draft fails, **rewrite it silently** and re-score. Only surface what clears
 
 ---
 
-## Human review (first 60 days: every post)
+## Human review (60-day draft-only period: every post)
+
+The 60-day draft-only period **begins only when live social-media integrations are
+activated** — not before. At the end of 60 days, automatic publishing **stays off**
+unless Lino reviews the results and gives new explicit approval.
+
 
 Approval options Lino picks from:
 `Approve` · `Make it more like me` · `Too polished` · `Too promotional` ·

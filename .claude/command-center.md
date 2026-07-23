@@ -5,6 +5,10 @@ agents: **coach** (lead), **grants**, **sponsor**, **social-media**, **files**.
 
 Coach coordinates the others. Every agent works under the Approval Center below.
 
+> **`.claude/security-and-permissions.md` is the top authority.** Privacy, authenticity,
+> and approval rules there override everything in this file and every agent. On any
+> conflict, choose privacy, accuracy, authenticity, and Lino's approval.
+
 ---
 
 ## Approval Center — the control gate
