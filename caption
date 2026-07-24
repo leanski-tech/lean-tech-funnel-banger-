@@ -182,7 +182,7 @@ trap cleanup EXIT
 # ---------------------------------------------------------------------------
 log "extracting audio: $INPUT -> 16 kHz mono wav"
 ffmpeg -hide_banner -loglevel error -y -i "$INPUT" \
-  -vn -ac 1 -ar 16000 -c:a pcm_s16le "$wav" \
+  -vn -ac 1 -ar 16000 -c:a pcm_s16le -f wav "$wav" \
   || die "ffmpeg failed to extract audio"
 
 # ---------------------------------------------------------------------------
