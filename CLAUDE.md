@@ -48,6 +48,7 @@ Motto: **"Read the room. Move the people. Honor the culture."**
 - `.claude/security-and-permissions.md` — top-authority safety rules
 - `.claude/command-center.md` — Approval Center, permission levels, connected services
 - `.claude/voice-system.md` — social content doctrine + voice-match gate
+- `.claude/modes.md` — thinking-mode lenses (TRUTHMODE, 80/20, FIRSTPRINCIPLES, …); never override the rules
 
 **Voice library** (`.claude/voice/`)
 - `SOUNDS_LIKE_LINO.md` · `DOES_NOT_SOUND_LIKE_LINO.md`
