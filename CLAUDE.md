@@ -40,7 +40,7 @@ Motto: **"Read the room. Move the people. Honor the culture."**
 ## Map
 
 **Agents** (`.claude/agents/`)
-- Command center: `coach` (lead) · `grants` · `sponsor` · `social-media` · `files`
+- Command center: `coach` (lead) · `grants` · `sponsor` · `social-media` · `files` · `anthony` (AI-for-DJs blog research)
 - DJ business crew: `sal` `vicky` `cody` `patty` `quinn` `rex` `aaron` `mona` `reggie`
   `frannie` `dolly` `jerry` `mark` `maya` `angelina`
 
