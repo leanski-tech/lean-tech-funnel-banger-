@@ -26,8 +26,15 @@ of track recommendations, with a reason for each pick. Ask it to build a playlis
 kids' party, it does the heavy lifting. It'll also fill your screens with visuals when a
 song has no music video, so the room stays lit even on the deep cuts.
 
-They're not the only ones moving. VirtualDJ's 2026 rollout also added AI-powered lyrics and
-set-building tools and a rebuilt FX engine.
+And it doesn't stop at the playlist. DJs putting VirtualDJ 2026 through its paces on YouTube
+are showing off a rebuilt FX engine, AI-powered lyrics and set-building, AI shaders and
+visuals, Fluid BPM, a Lyric Censor for clean rooms, and a karaoke overlay. Whole lot in one
+update.
+
+And here's the tell that this is a real moment, not marketing: the DJ community is already
+arguing about it. Search around and you'll find working DJs testing it on camera, asking the
+same question out loud — *is AI here to kill DJing, or make it better?* Good. That's the
+right question. Here's the answer from where I sit.
 
 ## Why this helps you, not replaces you
 
@@ -82,9 +89,15 @@ booking, the marketing, the paperwork? That's [The DJ's AI Playbook](https://aif
 - [VirtualDJ 2026 To Get AI-Powered Lyrics & Set Building, New FX — Digital DJ Tips](https://www.digitaldjtips.com/virtualdj-2026/)
 - [VirtualDJ 2026 Part 2 Expands AI-Driven DJ Tools — DJ LIFE Magazine](https://djlifemag.com/2026/02/virtualdj-2026-part-2-expands-ai-driven-dj-tools/)
 - [What AlphaTheta brought to NAMM 2026 (XDJ-AN, CDJ-1500X, CoBeat) — MusicTech](https://musictech.com/news/gear/alphatheta-pioneer-dj-namm-2026/)
+- [REVEALED: New AI Features & Pro FX In VirtualDJ 2026 (hands-on) — YouTube](https://www.youtube.com/watch?v=T2QecSXEORg)
+- [Can AI Actually Help DJs in 2026? I Tested It — YouTube](https://www.youtube.com/watch?v=QAvRd0b_w38)
+- [Is AI coming to kill DJing? Or make it better? — Beatsource Tech, YouTube](https://www.youtube.com/watch?v=TvtPej8uhBA)
 
 ### Anthony's note
 Angle led with: VirtualDJ 2026's in-software **AI assistant** (prompt-to-playlist with
 reasons) as a genuinely new release that saves prep time — the AI drafts the crate, the DJ
 keeps the read. No "AI replaces DJs" framing. Honest-limits section keeps it credible; a
 short "also new" roundup (XDJ-AN, CDJ-1500X, CoBeat) shows the wider field.
+Sources triangulated: trades (facts), YouTube hands-on demos (proof + extra features:
+Lyric Censor, karaoke overlay, AI shaders, Fluid BPM; and the live community debate).
+Reddit/forum sentiment not included — crawler blocked; needs the Composio research stack.
