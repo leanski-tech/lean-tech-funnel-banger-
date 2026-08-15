@@ -66,6 +66,31 @@ floorlords.org
 
 ---
 
+## POST 5 — All Three Days, One Post (pair with the group flyer)
+
+45 years deep. Three days. Boston — this one's ours.
+
+The Floor Lords turn 45, and we're running it back with the culture that raised us. 🔥
+
+FRI 9/11 — Downtown Throwdown
+Kids battle · Akrobatik live · DJ Leanski on the music
+Downtown Boston Amphitheater · 5–8PM · out in the open
+
+SAT 9/12 — The Battles
+2v2 breaking + all-style · $500
+First Street Market, Cambridge · 6PM–12AM
+
+SUN 9/13 — The Championship
+3v3 crew battle · $3,000 + trophies · Ken Swift judging
+Middle East Nightclub, Cambridge · 3PM–9PM
+
+Pull up. Move the people. Honor the culture.
+📍 floorlords.org
+
+**Hashtags:** #FloorLords45 #ProBreakingTour #Breaking #Bboy #BostonHipHop #KenSwift #Akrobatik #HonorTheCulture
+
+---
+
 ### Notes for Lino
 - Add your Instagram @handles / tags where you want them (I don't make up handles).
 - The flyers ARE the visuals — post each caption with its matching image.
